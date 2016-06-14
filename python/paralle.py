@@ -48,7 +48,7 @@ def create_urls(url):
   print lst 	
   return lst
 
-url="http://www-itec.uni-klu.ac.at/ftp/datasets/DASHDataset2014/BigBuckBunny/15sec/bunny_3748236bps/BigBuckBunny_15snonSeg.mp4"
+url="http://www-itec.uni-klu.ac.at/ftp/datasets/DASHDataset2014/BigBuckBunny/1sec/bunny_4726737bps/BigBuckBunny_1s8.m4s"
 
 #r=request.head(url);
 #size=r.headers['content-length']
@@ -60,8 +60,8 @@ pool = Pool(processes=5)
 
 start_time = millis()
 results = pool.map(http_get, urls)
-
-print "\ntotal time to pull all the segments " + str(millis() - start_time) + " ms\n"
+tib=millis() - start_time
+print "\ntotal time to pull all the segments " + str(tib) + " ms\n"
 
 #for result in results:
 #  print result
@@ -69,6 +69,8 @@ print "\ntotal time to pull all the segments " + str(millis() - start_time) + " 
 st=millis()
 req=urllib2.Request(url)
 temp=urllib2.urlopen(req, timeout=5).read()
-print str(millis()-st)
+tis=millis()-st
+print str(tis)
+print "\n time saved="+str(tis-tib)+"ms\n"
 
 

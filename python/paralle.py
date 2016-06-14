@@ -5,9 +5,6 @@ import requests
 import time
 import urllib2
 
-
-
-
 def millis():
   return int(round(time.time() * 1000))
 

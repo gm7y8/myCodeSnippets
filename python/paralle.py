@@ -9,8 +9,16 @@ def millis():
   return int(round(time.time() * 1000))
 
 def byte_range_divide(l,n):
-  return [l[i::n] for i in xrange(n)]
- 	
+  len_seg=l/n
+  rem=l%n
+  lst=[]
+  for i in range(0,n):
+    min=len_seg*(i)
+    max=len_sub*(i+1)
+    if i=n-1:
+      max+=diff
+    lst.append([min,max])
+  return lst
 def http_get(url):
   start_time = millis() 
   temp_url=url.split('|')
@@ -23,7 +31,7 @@ def http_get(url):
 
 def create_urls(url):
   r=requests.head(url)
-  temp=byte_range_divide(range(int(r.headers['content-length'])),10)  
+  temp=byte_range_divide(int(r.headers['content-length']),10)  
   t=[len(x) for x in temp]
   y = [sum(t[:i+1]) for i in range(len(t))]
   y.append(0)

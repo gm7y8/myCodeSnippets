@@ -1,0 +1,15 @@
+To download list of links from the console of the google chrome developer tools as console log
+
+urls= $$('a'); for (url in urls) console.log (urls[url].href);
+
+
+To download files from http website recursively using wget
+
+wget -r --no-parent "http://www-itec.uni-klu.ac.at/ftp/datasets/DASHDataset2014/BigBuckBunny/4sec/"
+
+To download files from ftp path 
+
+wget -r ftp://username:password@<ftp_site>/
+
+
+

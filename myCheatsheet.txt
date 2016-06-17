@@ -11,5 +11,10 @@ To download files from ftp path
 
 wget -r ftp://username:password@<ftp_site>/
 
+shell script to get list of files and sub dir
 
+find . -type f -exec ls -lh {} \;| while read attr numitems user group size date filename 
+do 
+       echo $size $filename >> output.csv
+done
 

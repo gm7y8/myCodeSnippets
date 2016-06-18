@@ -18,3 +18,8 @@ do
        echo $size $filename >> output.csv
 done
 
+
+# To sed command to replace / with | in shell script
+
+sed -e 's/\//\|/g' output.csv > out.csv
+

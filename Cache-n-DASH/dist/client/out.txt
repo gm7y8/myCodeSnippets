@@ -1,0 +1,11 @@
+3363646
+[[0, 336364], [336364, 672728], [672728, 1009092], [1009092, 1345456], [1345456, 1681820], [1681820, 2018184], [2018184, 2354548], [2354548, 2690912], [2690912, 3027276], [3027276, 3363647]]
+['http://www-itec.uni-klu.ac.at/ftp/datasets/DASHDataset2014/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4snonSeg.mp4|0|336363', 'http://www-itec.uni-klu.ac.at/ftp/datasets/DASHDataset2014/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4snonSeg.mp4|336364|672727', 'http://www-itec.uni-klu.ac.at/ftp/datasets/DASHDataset2014/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4snonSeg.mp4|672728|1009091', 'http://www-itec.uni-klu.ac.at/ftp/datasets/DASHDataset2014/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4snonSeg.mp4|1009092|1345455', 'http://www-itec.uni-klu.ac.at/ftp/datasets/DASHDataset2014/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4snonSeg.mp4|1345456|1681819', 'http://www-itec.uni-klu.ac.at/ftp/datasets/DASHDataset2014/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4snonSeg.mp4|1681820|2018183', 'http://www-itec.uni-klu.ac.at/ftp/datasets/DASHDataset2014/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4snonSeg.mp4|2018184|2354547', 'http://www-itec.uni-klu.ac.at/ftp/datasets/DASHDataset2014/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4snonSeg.mp4|2354548|2690911', 'http://www-itec.uni-klu.ac.at/ftp/datasets/DASHDataset2014/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4snonSeg.mp4|2690912|3027275', 'http://www-itec.uni-klu.ac.at/ftp/datasets/DASHDataset2014/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4snonSeg.mp4|3027276|3363646']
+
+total time to pull all the segments 4829 ms
+
+time to download  complete chunck7745ms
+
+
+ time saved=2916ms
+

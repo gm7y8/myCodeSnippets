@@ -50,15 +50,15 @@ def create_urls(url):
   print lst 	
   return lst
 
-def main():
+def main(arg1,arg2):
     # print command line arguments
     
 
     #url="http://www-itec.uni-klu.ac.at/ftp/datasets/DASHDataset2014/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4snonSeg.mp4"
-    url=sys.argv[1] 
+    url=arg1 
 	#r=request.head(url);
 	#size=r.headers['content-length']
-    file_name=sys.argv[2] 
+    file_name=arg2 
     urls =create_urls(url)
     #print urls
 
@@ -88,5 +88,5 @@ def main():
     print "\n time saved="+str(tis-tib)+"ms\n"
     return file_size
 if __name__ == "__main__":
-    main()
+    sys.exit(main(sys.argv[1],sys.argv[2]))
 

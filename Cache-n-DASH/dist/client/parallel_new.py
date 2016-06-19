@@ -58,7 +58,7 @@ def main():
     url=sys.argv[1] 
 	#r=request.head(url);
 	#size=r.headers['content-length']
-
+    file_name=sys.argv[2] 
     urls =create_urls(url)
     #print urls
 
@@ -70,7 +70,7 @@ def main():
     print "\ntotal time to pull all the segments " + str(tib) + " ms\n"
     #print results
     result=defaultdict(list)
-    file_name=url.split('/')[-1]
+    #file_name=url.split('/')[-1]
     #print(file_name)
     segment_file= open(file_name, 'wb')
     for d in results:

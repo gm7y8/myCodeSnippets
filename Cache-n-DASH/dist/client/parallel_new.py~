@@ -86,7 +86,7 @@ def main():
     tis=millis()-st
     print "time to download  complete chunck"+str(tis)+"ms\n"
     print "\n time saved="+str(tis-tib)+"ms\n"
-    return 
+    return file_size
 if __name__ == "__main__":
     main()
 

@@ -41,7 +41,7 @@ def create_urls(url):
   r=requests.head(url)
   length=int(r.headers['content-length'])
   print length
-  y=byte_range_divide(length,10)  
+  y=byte_range_divide(length,5)  
   lst=[];
   for i in range(0,len(y)):	
      	t=[url,y[i][0],y[i][1]-1]

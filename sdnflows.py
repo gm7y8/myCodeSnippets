@@ -1,5 +1,17 @@
 #def send_rest_data()
 
+#adding table miss-flow entry
+
+miss1={
+    "dpid":1,
+    "priority":22222,
+    "match":{
+        "dl_type":0x806
+        "nw_proto":1        
+        },
+    "actions":"flood"
+}
+
 
 
 flow1={

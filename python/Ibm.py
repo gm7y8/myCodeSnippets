@@ -19,9 +19,9 @@ for el in l[0:length-2]:
 	g[kv[1]]=kv[0]
 #print str(g)
 
-x=find_manager(g,'D',[]);
+x=find_manager(g,node1,[]);
 
-y=find_manager(g,'B',[]);
+y=find_manager(g,node2,[]);
 
 #print x,y
 for i in x:
